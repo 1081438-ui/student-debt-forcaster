@@ -25,8 +25,8 @@ if app_mode == "Grade 12 Student":
     
     col1, col2 = st.columns(2)
     with col1:
-        target_uni = st.text_input("Which University/College are you aiming for?", "Waterloo")
-        study_area = st.text_input("What do you want to study?", "Computer Science & Accounting")
+        target_uni = st.text_input("Which University/College are you aiming for?", "")
+        study_area = st.text_input("What do you want to study?", "")
         living_choice = st.radio("Living Situation:", ["On-Campus Residence", "Living at Home"])
     
     with col2:
